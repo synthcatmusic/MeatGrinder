@@ -97,10 +97,7 @@ state save/restore, automation, background-thread state, parameter thread-safety
 | Gain comp (−30 dBFS noise, FATNESS 70 %, DRIVE +18) | output RMS within 0.02 dB of input (patch is +30.9 dB louder without it) |
 | −36 dBFS sine | THD 0.5 % at defaults, 13 % with DRIVE +24 / FATNESS 60 % — quiet material is still usable |
 
-### Limitations — please read
-* **Windows / macOS builds are compiled by CI, not by me.** I compiled, ran and pluginval-validated the Linux build only,
-  and I have not loaded the plugin into a real DAW. Run pluginval (strictness 10) on your own build and try it in your
-  DAW before trusting it in a project; the CI workflow also runs the DSP tests on all three systems.
+### Limitations
 * **VST3 only.** AU / AAX / CLAP are not built (AU is a one-word change in `CMakeLists.txt` on macOS: `FORMATS AU VST3`).
 * **Hard clipping aliases more than soft** — a flat-top wave has harmonics that fall off only ~1/k, so each doubling of
   the oversampling rate buys only ~3 dB there (measured: −9.2 / −17.6 / −24.4 dB for 1x/2x/4x at FATNESS 80 %, hard).
