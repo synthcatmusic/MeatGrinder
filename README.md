@@ -10,16 +10,6 @@ branding, original DSP (inspired only by the *idea* of a "fattener"; no code or 
 
 ## 1. Get the plugin
 
-This is a complete C++ / [JUCE 8](https://juce.com) project. A VST3 has to be compiled for each operating system,
-so pick one of these:
-
-### Option A — Download MEATGRINDER
-1. Visit the GitHub Actions page.
-2. Open the latest successful build.
-3. Download the artifact matching your operating system.
-4. Extract the archive and install the VST3 file in your plugin folder.
-
-### Option B — build it yourself
 Requirements: CMake ≥ 3.22, a C++17 compiler (Visual Studio 2022 / Xcode / GCC or Clang), Git.
 JUCE is downloaded automatically (or pass `-DMEATGRINDER_JUCE_PATH=/path/to/JUCE`).
 
