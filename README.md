@@ -131,3 +131,7 @@ JUCE is dual-licensed (AGPLv3 or a commercial licence). Using it for yourself is
 binary built with it you must either publish your complete source under AGPLv3 or buy a JUCE licence — check
 JUCE's current terms. Fonts: Barlow Condensed © The Barlow Project Authors, SIL OFL 1.1 (`Assets/Fonts/OFL.txt`).
 VST is a trademark of Steinberg Media Technologies GmbH.
+
+--------------------------------------------------------------------------------------------------
+
+by SynthCat
