@@ -13,11 +13,11 @@ branding, original DSP (inspired only by the *idea* of a "fattener"; no code or 
 This is a complete C++ / [JUCE 8](https://juce.com) project. A VST3 has to be compiled for each operating system,
 so pick one of these:
 
-### Option A — let GitHub build it for you (no tools to install)
-1. Create an empty GitHub repository and push this folder to it.
-2. Open the **Actions** tab → *Build MEATGRINDER VST3* → open the newest run.
-3. Download **MEATGRINDER-VST3-Windows** / **-macOS** / **-Linux** from *Artifacts*.
-   The run also executes the DSP test-suite on all three platforms.
+### Option A — Download MEATGRINDER
+1. Visit the GitHub Actions page.
+2. Open the latest successful build.
+3. Download the artifact matching your operating system.
+4. Extract the archive and install the VST3 file in your plugin folder.
 
 ### Option B — build it yourself
 Requirements: CMake ≥ 3.22, a C++17 compiler (Visual Studio 2022 / Xcode / GCC or Clang), Git.
